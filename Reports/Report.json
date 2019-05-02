@@ -1,0 +1,271 @@
+[
+	{
+		"keyword": "Feature",
+		"uri": "detail.feature",
+		"name": "detail.feature",
+		"id": "detail.feature",
+		"line": 1,
+		"description": "",
+		"tags": [],
+		"elements": [
+			{
+				"keyword": "Scenario",
+				"id": "test_arguments",
+				"name": "Arguments for given, when, thens",
+				"line": 1,
+				"description": "",
+				"tags": [],
+				"type": "scenario",
+				"steps": [
+					{
+						"keyword": "Given",
+						"name": "there are 5 cucumbers",
+						"line": 2,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "When",
+						"name": "I eat 3 cucumbers",
+						"line": 3,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "And",
+						"name": "I eat 2 cucumbers",
+						"line": 4,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "Then",
+						"name": "I should have 0 cucumbers",
+						"line": 5,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"keyword": "Feature",
+		"uri": "parameterized.feature",
+		"name": "parametrized",
+		"id": "parameterized.feature",
+		"line": 1,
+		"description": "",
+		"tags": [],
+		"elements": [
+			{
+				"keyword": "Scenario",
+				"id": "test_parametrized_given_when_thens",
+				"name": "Parametrized given, when, thens",
+				"line": 3,
+				"description": "",
+				"tags": [],
+				"type": "scenario",
+				"steps": [
+					{
+						"keyword": "Given",
+						"name": "there are <start> cucumbers",
+						"line": 4,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "When",
+						"name": "I eat <eat> cucumbers",
+						"line": 5,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "Then",
+						"name": "I should have <left> cucumbers",
+						"line": 6,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					}
+				]
+			},
+			{
+				"keyword": "Scenario",
+				"id": "test_parametrized_given_when_thens",
+				"name": "Parametrized given, when, thens",
+				"line": 3,
+				"description": "",
+				"tags": [],
+				"type": "scenario",
+				"steps": [
+					{
+						"keyword": "Given",
+						"name": "there are <start> cucumbers",
+						"line": 4,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "When",
+						"name": "I eat <eat> cucumbers",
+						"line": 5,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "Then",
+						"name": "I should have <left> cucumbers",
+						"line": 6,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"keyword": "Feature",
+		"uri": "publish_article.feature",
+		"name": "Blog",
+		"id": "publish_article.feature",
+		"line": 1,
+		"description": "A site where you can publish your articles.",
+		"tags": [],
+		"elements": [
+			{
+				"keyword": "Scenario",
+				"id": "test_publishing_the_article",
+				"name": "Publishing the article",
+				"line": 4,
+				"description": "",
+				"tags": [],
+				"type": "scenario",
+				"steps": [
+					{
+						"keyword": "Given",
+						"name": "I'm an author user",
+						"line": 5,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "And",
+						"name": "I have an article",
+						"line": 6,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "When",
+						"name": "I go to the article page",
+						"line": 7,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "And",
+						"name": "I press the publish button",
+						"line": 8,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "Then",
+						"name": "I should not see the error message",
+						"line": 9,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					},
+					{
+						"keyword": "And",
+						"name": "the article should be published",
+						"line": 10,
+						"match": {
+							"location": ""
+						},
+						"result": {
+							"status": "passed",
+							"duration": 0
+						}
+					}
+				]
+			}
+		]
+	}
+]
